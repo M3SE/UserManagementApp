@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Welcome to User Management</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" th:href="@{/css/styles.css}" />
+</head>
+<body>
+<div class="container index-container">
+    <h1>Welcome to User Management System</h1>
+    <p>Manage your account easily by registering or logging in. Create your account or login to manage your profile securely.</p>
+
+    <div class="button-group">
+        <a th:href="@{/register}" class="register-btn">Register</a>
+        <a th:href="@{/login}" class="login-btn">Login</a>
+    </div>
+</div>
+</body>
+</html>
